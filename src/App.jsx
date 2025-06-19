@@ -51,8 +51,7 @@ function App() {
   }
   function handleClick(e){
     
-   console.log(e.currentTarget.id);
-   console.log(index);
+   
    switch(e.currentTarget.id){
     case 'back':
       setAnimation('');

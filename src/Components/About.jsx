@@ -1,5 +1,8 @@
 import { useRef, useEffect, useState } from 'react';
 import {skills as skillsOg} from '../skills';
+import HeadShot from '/imgs/HeadShot.jpg';
+
+
 export default function About({index, setIndex, skills, animation}){
     const aboutBox = useRef(null);
     const indicatorBox = useRef(null);
@@ -38,7 +41,12 @@ export default function About({index, setIndex, skills, animation}){
             </div>
             <section>
              <div>
-            <img id='headshot' src='/imgs/HeadShot.jpg' />
+            <img 
+            id='headshot' 
+            src={HeadShot}
+            alt="Headshot"
+            loading="lazy"
+              />
              </div>
              {index[0] === 0? <div>
                 <p>My Name is</p>
