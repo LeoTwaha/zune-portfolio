@@ -6,10 +6,10 @@ export const contactInfo = [
        link: 'mailto:leotwaha590@gmail.com'
     },
     {
-       logo: '/imgs/contactIcons/phone.svg',
-       name: 'Phone',
-       info: '6129874240',
-       link: 'tel:+16129874240'
+       logo: '/imgs/contactIcons/directory-downloads.svg',
+       name: 'Resume',
+       info: 'Click to Open',
+       link: '/Leo_Twaha_Resume.pdf'
     },
     {
        logo: '/imgs/contactIcons/linkedin-original.svg',

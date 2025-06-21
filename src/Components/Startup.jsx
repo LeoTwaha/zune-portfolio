@@ -7,6 +7,7 @@ export default function Startup({setScreen}){
         <div id='loaded'>
 
         </div>
+        <p  style={{color: 'white', fontSize: '10px', textAlign: 'center'}}>v1.0 Leo Twaha's Portfolio</p>
       </div>
     </div>
 )
